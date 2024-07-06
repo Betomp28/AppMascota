@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppMascota", "AppMascota.csproj", "{60A0ECC1-D3A9-484B-A6D5-36CCFF091BDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppMascotamaui", "AppMascotamaui.csproj", "{60A0ECC1-D3A9-484B-A6D5-36CCFF091BDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica_app_Mascotas", "..\Betomp28\AppMascotas\Logica_app_Mascotas\Logica_app_Mascotas.csproj", "{0E33D043-B826-4370-B14F-EFC8574B958C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiMascotas", "..\Betomp28\AppMascotas\ApiMascotas\ApiMascotas.csproj", "{4448E5C6-42E7-44DE-B33D-4497E474A674}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +21,14 @@ Global
 		{60A0ECC1-D3A9-484B-A6D5-36CCFF091BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60A0ECC1-D3A9-484B-A6D5-36CCFF091BDE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{60A0ECC1-D3A9-484B-A6D5-36CCFF091BDE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0E33D043-B826-4370-B14F-EFC8574B958C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E33D043-B826-4370-B14F-EFC8574B958C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E33D043-B826-4370-B14F-EFC8574B958C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E33D043-B826-4370-B14F-EFC8574B958C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4448E5C6-42E7-44DE-B33D-4497E474A674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4448E5C6-42E7-44DE-B33D-4497E474A674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4448E5C6-42E7-44DE-B33D-4497E474A674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4448E5C6-42E7-44DE-B33D-4497E474A674}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
